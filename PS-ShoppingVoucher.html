@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+
+ 
+    body {
+      background-color: bisque;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bolder;
+      display: flex; /* Use flexbox to center the content */
+      justify-content: center; /* Horizontally center the content */
+      align-items: center; /* Vertically center the content */
+     
+    }
+
+  
+    h1 {
+      color: darkseagreen;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 30px; /* spacing around the h1*/
+    }
+
+  
+    h2 {
+      color: darkseagreen;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Styling for the  boxes */
+    .boxes {
+      background-color: bisque;
+      padding: 20px;
+      display: inline-block; /*makes an element act like a block but fit in the same line with other elements, allowing you to control its size and spacing.*/
+      border: 2px solid black;
+      margin: 10px; /*spacing between the boxes */
+      border-radius: 5px;
+    }
+
+    
+    .boxes h2 {
+      margin-top: 0;
+    }
+
+  
+    .checkout-button {
+      display: block;
+      margin: 20px auto; /* Center the button horizontally within its container */
+      padding: 10px 20px;
+      background-color: darkseagreen;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;/* to remove the underline*/
+    }
+
+    label{
+      font-size: 10px;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- The main table structure -->
+  <table>
+    <tr> <!--table row -->
+      <!--  merging the cells in the row to create a full-width cell. -->
+      <td colspan="2" style="text-align: center; "> 
+        <h1  style="text-align: center;">Vouchers for shopping</h1>
+      </td>
+    </tr>
+    <tr>
+      <!-- First row of  boxes -->
+      <td class="boxes">
+        <!-- Subheading for the first box -->
+        <h2>NIKE <label>
+          <input type="checkbox" name="voucher" value="FREESHIPPING" > Add to Cart
+      </label> </h2>
+        <!-- Voucher details for NIKE -->
+        <p>GET $50 SHOP VOUCHER FOR $45</p>
+        <p>GET $100 SHOP VOUCHER FOR $90</p>
+        <p>GET $150 SHOP VOUCHER FOR $130</p>
+      </td>
+      <td class="boxes">
+        <!-- Subheading for the second box -->
+        <h2>PUMA <label>
+          <input type="checkbox" name="voucher" value="FREESHIPPING" > Add to Cart
+      </label> </h2>
+        <!-- Voucher details for PUMA -->
+        <p>GET $50 SHOP VOUCHER FOR $45</p>
+        <p>GET $100 SHOP VOUCHER FOR $90</p>
+        <p>GET $150 SHOP VOUCHER FOR $130</p>
+      </td>
+    </tr>
+    <tr>
+      <!-- Second row of  boxes -->
+      <td class="boxes">
+        <!-- Subheading for the third box -->
+        <h2>ADIDAS <label>
+          <input type="checkbox" name="voucher" value="FREESHIPPING" > Add to Cart
+      </label> </h2>
+        <!-- Voucher details for ADIDAS -->
+        <p>GET $50 SHOP VOUCHER FOR $45</p>
+        <p>GET $100 SHOP VOUCHER FOR $90</p>
+        <p>GET $150 SHOP VOUCHER FOR $130</p>
+      </td>
+      <td class="boxes">
+        <!-- Subheading for the fourth box -->
+        <h2>UNIQLO <label>
+          <input type="checkbox" name="voucher" value="FREESHIPPING" > Add to Cart
+      </label></h2>
+        <!-- Voucher details for UNIQLO -->
+        <p>GET $50 SHOP VOUCHER FOR $45</p>
+        <p>GET $100 SHOP VOUCHER FOR $90</p>
+        <p>GET $150 SHOP VOUCHER FOR $130</p>
+      </td>
+    </tr>
+    <tr>
+      <!-- Third row of  boxes -->
+      <td class="boxes">
+        <!-- Subheading for the fifth box -->
+        <h2>FILA <label>
+          <input type="checkbox" name="voucher" value="FREESHIPPING" > Add to Cart
+      </label> </h2>
+        <!-- Voucher details for FILA -->
+        <p>GET $50 SHOP VOUCHER FOR $45</p>
+        <p>GET $100 SHOP VOUCHER FOR $90</p>
+        <p>GET $150 SHOP VOUCHER FOR $130</p>
+      </td>
+      <td class="boxes">
+        <!-- Subheading for the sixth box -->
+        <h2>UNDER ARMOUR <label>
+          <input type="checkbox" name="voucher" value="FREESHIPPING" > Add to Cart
+      </label> </h2>
+        <!-- Voucher details for UNDER ARMOUR -->
+        <p>GET $50 SHOP VOUCHER FOR $45</p>
+        <p>GET $100 SHOP VOUCHER FOR $90</p>
+        <p>GET $150 SHOP VOUCHER FOR $130</p>
+      </td>
+    </tr>
+    <tr>
+      <!-- Row for the checkout button -->
+      <td colspan="2" style="text-align: center;">
+        <!-- Checkout button -->
+        <a href="Cart.html" class="checkout-button">View cart</a>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
